@@ -1,0 +1,36 @@
+@use '../../node_modules/normalize.css/normalize.css';
+
+@use '../../node_modules/@mapsindoors/css/helpers.css';
+
+@use '../../node_modules/@mapsindoors/midt/background-color';
+@use '../../node_modules/@mapsindoors/midt/border';
+@use '../../node_modules/@mapsindoors/midt/color';
+@use '../../node_modules/@mapsindoors/midt/elevation';
+@use '../../node_modules/@mapsindoors/midt/font';
+@use '../../node_modules/@mapsindoors/midt/icons';
+@use '../../node_modules/@mapsindoors/midt/margin';
+@use '../../node_modules/@mapsindoors/midt/opacity';
+@use '../../node_modules/@mapsindoors/midt/padding';
+@use '../../node_modules/@mapsindoors/midt/sizing';
+@use '../../node_modules/@mapsindoors/midt/transitions';
+@use '../../node_modules/@mapsindoors/midt/z-index';
+
+@use '../../node_modules/@mapsindoors/midt/build/scss/variables'as *;
+
+:root {
+  @include font.family(sans-serif);
+  @include font.size(base);
+  @include font.leading(x-large);
+  @include font.measure(large);
+  @include color.black(base);
+  @include background-color.dusk(10);
+}
+
+html {
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  @include font.family(sans-serif);
+  @include color.purple(base);
+}

@@ -1,7 +1,1 @@
-_site
-public
-.sass-cache
-.jekyll-metadata
-node_modules/
-yarn.lock
-.DS_Store
+node_modules

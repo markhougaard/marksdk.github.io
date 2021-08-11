@@ -1,0 +1,35 @@
+{
+  "name": "marks.dk",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run sass & eleventy",
+    "sass-watch": "sass --watch src/_sass:src/style --no-source-map",
+    "sass": "sass src/_sass:src/style --no-source-map",
+    "start": "npm run sass-watch & ELEVENTY_ENV=dev eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksdk/marksdk.github.io.git"
+  },
+  "author": "Mark Hougaard Jensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksdk/marksdk.github.io/issues"
+  },
+  "homepage": "https://github.com/marksdk/marksdk.github.io#readme",
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "@11ty/eleventy": "^0.12.1",
+    "@mapsindoors/css": "^0.2.1",
+    "@mapsindoors/midt": "^15.0.0",
+    "eleventy-plugin-youtube-embed": "^1.6.4",
+    "eslint": "^7.32.0",
+    "markdown-it-anchor": "^7.1.0",
+    "markdown-it": "^12.0.6",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.34.1"
+  }
+}
