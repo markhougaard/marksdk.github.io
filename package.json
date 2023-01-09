@@ -22,7 +22,7 @@
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.2",
     "@mapsindoors/css": "^0.2.1",
     "@mapsindoors/midt": "^15.0.0",
     "eleventy-plugin-youtube-embed": "^1.6.4",
